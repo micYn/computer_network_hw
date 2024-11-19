@@ -1,0 +1,5 @@
+使用方法：
+	編譯：make all
+	執行server: ./server <port number>	(e.g. ./server 8080)
+	執行client ./client <server IP address> <server port number> <task requests>	(e.g. ./client 127.0.0.1 8080 "3*3" dns.google.com)
+	清除.o檔及執行檔: make clean
